@@ -8,10 +8,10 @@ Routes -:
 2. localhost:5000/api/companySale/targetSale ---> gets the targetsale by id. Example of request body {
    "saleId":"61459a0ebfc49f9c00bca1de"
    }
-3. localhost:5000/api/companySale/targetSalesOfChild ---> it gets all the child of target sale object. it uses breath first search algo of graph.Example of request body {
+3. localhost:5000/api/companySale/targetSalesOfChild ---> it gets all the parents of target sale object. it uses breath first search algo of graph.Example of request body {
    "saleId":"61459a0ebfc49f9c00bca1de"
    }
 
-4. localhost:5000/api/companySale/targetSalesOfParent --> it get all the parent of target sale object.Example of request body {
+4. localhost:5000/api/companySale/targetSalesOfParent --> it get all the childs of target sale object.Example of request body {
    "saleId":"61459a0ebfc49f9c00bca1de"
    }
